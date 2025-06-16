@@ -37,7 +37,7 @@ cd hate-speech-detection-cnn
 
 2. Install the dependencies:
 
-pip install -r requirements.txt
+-pip install -r requirements.txt
 
 
 
@@ -45,11 +45,11 @@ Running the Project
 
 To train the model:
 
-python train.py
+-python train.py
 
 To test the model or run predictions:
 
-python predict.py
+-python predict.py
 
 Dataset
 
