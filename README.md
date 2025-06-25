@@ -1,56 +1,49 @@
-# hate-speech-detection-cnn
-This project uses a Convolutional Neural Network (CNN) to detect hate speech in text data. The model is trained on labeled datasets and aims to classify whether a given sentence contains hate speech or not.
+# 🛡️ Hate Speech Detection using CNN
 
-Features
+This project applies a **Convolutional Neural Network (CNN)** to detect hate speech in text data. It leverages deep learning to classify text as *hateful*, *offensive*, or *neutral*, helping improve content moderation and online safety.
 
-Preprocessing of text (tokenization, padding, etc.)
+---
 
-CNN-based model architecture for text classification
+## ✨ Features
 
-Training and evaluation scripts
+- 🔤 Text preprocessing: tokenization, padding, and encoding
+- 🧠 CNN-based model for sentence-level classification
+- 📈 Training and evaluation with performance metrics
+- 📊 Visualization of training results
+- 💬 Real-time predictions from user input
 
-Model performance visualization
+---
 
-Real-time prediction using user input
+## 🧰 Technologies Used
+
+- **Python**
+- **TensorFlow / Keras**
+- **NumPy & Pandas**
+- **Matplotlib & Seaborn**
+
+---
+
+## ⚙️ Getting Started
+
+### 📥 Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/krishnaM-byte/hate-speech-detection-cnn.git
+   cd hate-speech-detection-cnn
+2. **Install dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+
+3.**To test or predict:**
+    ```bash
+    python predict.py
+ 
+  **Running the project:**
+: To train the model
+  ```bash
+  python train.py
 
 
-Technologies Used
-
-Python
-
-TensorFlow / Keras
-
-NumPy, Pandas
-
-Matplotlib / Seaborn
-
-
-Getting Started
-
-Installation
-
-1. Clone the repository:
-
-git clone https://github.com/yourusername/hate-speech-detection-cnn.git
-cd hate-speech-detection-cnn
-
-
-2. Install the dependencies:
-
--pip install -r requirements.txt
-
-
-
-Running the Project
-
-To train the model:
-
--python train.py
-
-To test the model or run predictions:
-
--python predict.py
-
-Dataset
-
-You can use datasets like Hate Speech and Offensive Language Dataset or any other labeled dataset suitable for hate speech classification.
