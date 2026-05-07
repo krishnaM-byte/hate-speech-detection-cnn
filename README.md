@@ -99,3 +99,8 @@ python predict.py
 ## 📌 Future Scope
 
 This project can be extended into a real-time moderation tool for social media platforms, online communities, and educational environments to help reduce harmful digital interactions.
+
+
+## 📊 Accuracy & Loss Graphs
+
+![Training Results](training_results.png)
