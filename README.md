@@ -48,18 +48,21 @@ This project applies a **Convolutional Neural Network (CNN)** to detect hate spe
   ```bash
   python train.py
 
+
+
+
 4.**Project Motivation:**
-## Project Motivation
+
+Project Motivation
 
 This project was developed to explore how deep learning and natural language processing can be used to identify harmful online content. The goal was to understand how AI models can contribute to safer digital communication platforms.
 
 5.**Dataset Information:**
- ## Dataset Information
+
 
 The model was trained on a labeled text dataset containing hateful, offensive, and neutral speech categories. Text preprocessing techniques such as tokenization, padding, and encoding were applied before training.
 
 6.**Model Architecture:**
-## Model Architecture
 
 - Embedding Layer
 - Convolutional Neural Network (CNN)
@@ -69,7 +72,7 @@ The model was trained on a labeled text dataset containing hateful, offensive, a
 The model was trained using TensorFlow/Keras
 
 7.**Future Improvements:**
-## Future Improvements
+
 
 - Improve dataset quality and size
 - Experiment with advanced NLP models
