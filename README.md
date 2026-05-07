@@ -29,25 +29,26 @@ This project applies a **Convolutional Neural Network (CNN)** to detect hate spe
 
 1. **Clone the repository:**
 
-       ```bash
+    ```bash
          git clone https://github.com/krishnaM-byte/hate-speech-detection-cnn.git
          cd hate-speech-detection-cnn
 2. **Install dependencies:**
 
-       ```bash
+     ```bash
         pip install -r requirements.txt
 
 3.**To test or predict:**
 
-    ```bash
-    python predict.py
+       ```bash
+python predict.py
+    
  
   **Running the project:**
 
 : To train the model
   
-    ```bash
-     python train.py
+           ```bash
+python train.py
 
 
 
